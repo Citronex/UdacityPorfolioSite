@@ -1,0 +1,84 @@
+* {
+	font-family: 'Raleway', sans-serif;
+	color: #2d3c49;
+}
+
+h1,
+h2,
+h3,
+{
+	letter-spacing: 2px;
+}
+
+h1 {font-size: 2.9em;}
+h2 {font-size: 1.9em;}
+h3 {font-size: 1.2em;}
+p {font-size: 0.89em;}
+
+
+body {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+header,
+main,
+#featured-work .list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header,
+main section {
+	margin: auto 0.5em 1em;
+}
+
+/*Header*/
+header {
+	border-bottom: 5px solid #7d97ad;
+	padding: 1.5em 0;
+}
+
+#logo img {width: 80px; height: auto;}
+
+#branding h1 { margin: 0 0 0.2em;}
+
+#branding h3 { margin: 0.2em 0 0;}
+
+#teclado img {
+	width: 100%;
+}
+
+/*Content*/
+#featured-work {
+	margin: auto 0 auto;
+}
+
+#featured-work > .title {
+	margin: 0 0 0.5em 0.5em ;
+}
+
+#featured-work .list .title {
+	text-align: center;
+}
+#featured-work .list .item {
+	margin-bottom: 1.4em;
+}
+
+#featured-work .list .item .title {
+	margin: 0.4em 0 0.2em;
+}
+
+#featured-work .list .item img {
+	width: 100%;
+}
+
+#featured-work .list .item p {
+	text-align: center;
+	word-wrap: break-word;
+	margin-top: 0.2em;
+}
+
+#featured-work .list .item > div {
+	padding: 0 0.5em;
+}
