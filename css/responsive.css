@@ -1,9 +1,10 @@
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 699px) {
 	/*Header*/
 	#logo {
 		width: 100%;
 		order:0;
 		text-align: center;}
+
 	#intro {
 		width: 100%;
 		order: 1;
@@ -13,20 +14,21 @@
 	#teclado {
 		width: 100%;
 		 order: 0;}
+
 	#featured-work {
 		width: 100%;
 		order: 1;}
+
 	#featured-work .list .item {
 		width: 100%;}
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 700px) {
 	/*Header*/
 	#logo {
-		width: 30%
-		;order: 0
-		;display: flex
-		;align-items: center;}
+		width: 30%;
+		order: 0;
+		align-items: center;}
 		
 	#intro {
 		 width: 70%;
@@ -41,6 +43,7 @@
 	#featured-work {
 		width: 100%;
 		order: 1;}
+
 	#featured-work .list .item {
 		width: 33.3333%;}
 }

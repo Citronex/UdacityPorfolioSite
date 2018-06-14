@@ -4,15 +4,15 @@
 	letter-spacing: 2px;
 }
 
-h1 {font-size: 2.9em;}
+h1 {font-size: 3.0em; font-weight: 300;}
 h2 {font-size: 2em;}
 h3 {font-size: 1.5em;}
-p {font-size: 0.89em; letter-spacing: 0ch;}
+p {font-size: 0.90em; letter-spacing: 0ch;}
 
 
 body {
-	margin: 0 auto;
-	max-width: 900px;
+	margin: auto;
+	max-width: 1000px;
 }
 
 #featured-work .main_title {
@@ -27,7 +27,7 @@ main,
 }
 
 header,
-main section {
+main {
 	margin: auto 0.5em 1em;
 }
 
@@ -37,9 +37,9 @@ header {
 	padding: 1.5em 0;
 }
 
-#logo img {width: 80px; height: auto;}
+#logo img {width: 75px; height: auto; margin: 1.1em 0 0;}
 
-#intro h1 { margin: 0 0 0.2em;}
+#intro h1 { margin: 0.2em;}
 
 #intro h3 { margin: 0.2em 0 0;}
 
@@ -48,23 +48,19 @@ header {
 }
 
 /*Content*/
-#featured-work {
-	margin: auto 0 auto;
+#featured-work .list .item .title {
+	margin: 0.2em 0 0.2em;
 }
 
-#featured-work > .title, .main_title {
-	margin: 0 0 0.5em 0.5em ;
+#featured-work .main_title {
+    margin: 0.5em 0 0.5em 0.5em;
 }
 
 #featured-work .list .title {
 	text-align: center;
 }
 #featured-work .list .item {
-	margin-bottom: 1.4em;
-}
-
-#featured-work .list .item .title {
-	margin: 0.4em 0 0.2em;
+	margin-bottom: 1.5em;
 }
 
 #featured-work .list .item img {
@@ -77,6 +73,6 @@ header {
 	margin-top: 0.2em;
 }
 
-#featured-work .list .item > div {
+#featured-work .list .item div {
 	padding: 0 0.5em;
 }
