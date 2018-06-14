@@ -1,24 +1,22 @@
 * {
 	font-family: 'Raleway', sans-serif;
 	color: #2d3c49;
-}
-
-h1,
-h2,
-h3,
-{
 	letter-spacing: 2px;
 }
 
 h1 {font-size: 2.9em;}
-h2 {font-size: 1.9em;}
-h3 {font-size: 1.2em;}
-p {font-size: 0.89em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em;}
+p {font-size: 0.89em;letter-spacing: 0ch}
 
 
 body {
 	margin: 0 auto;
 	max-width: 900px;
+}
+
+#featured-work .main_title {
+	color: #7d97ad;
 }
 
 header,
@@ -35,15 +33,15 @@ main section {
 
 /*Header*/
 header {
-	border-bottom: 5px solid #7d97ad;
+	border-bottom: 7px solid #7d97ad;
 	padding: 1.5em 0;
 }
 
 #logo img {width: 80px; height: auto;}
 
-#branding h1 { margin: 0 0 0.2em;}
+#intro h1 { margin: 0 0 0.2em;}
 
-#branding h3 { margin: 0.2em 0 0;}
+#intro h3 { margin: 0.2em 0 0;}
 
 #teclado img {
 	width: 100%;
@@ -54,7 +52,7 @@ header {
 	margin: auto 0 auto;
 }
 
-#featured-work > .title {
+#featured-work > .title, .main_title {
 	margin: 0 0 0.5em 0.5em ;
 }
 
