@@ -1,8 +1,22 @@
-@media (max-width: 550px) {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+    
+@media screen and (min-width: 900px) {
+    .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
     
     /* Header */
     header h1 {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         margin-top: 25px;
     }
 
@@ -24,7 +38,7 @@
     }
 }
 
-@media (min-width: 550px) and (max-width: 800px) {
+@media screen and (min-width: 550px) and (max-width: 800px) {
 
     /* Header */
     header h1 {
